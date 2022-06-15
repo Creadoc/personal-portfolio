@@ -24,6 +24,10 @@
   height: 50px;
 }
 
+.linkr {
+  padding: 4px;
+}
+
 .about .prompt {
   width: 40%;
   font-size: 30px;

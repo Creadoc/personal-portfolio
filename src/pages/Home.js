@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/Home.css";
 
 function Home() {
   return (
@@ -9,7 +10,12 @@ function Home() {
         <p>
           I don't even know where to start, but here goes. I obtained my
           Bachelor's Degree from
-          <a href="https://uafs.edu/" rel="noreferrer" target="_blank">
+          <a
+            className="linkr"
+            href="https://uafs.edu/"
+            rel="noreferrer"
+            target="_blank"
+          >
             UAFS
           </a>
           in May of 2022. I have been working as an IT Co-Op for Rheem
