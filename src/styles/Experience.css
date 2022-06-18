@@ -1,0 +1,29 @@
+.top {
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.mainCont {
+  font-size: 40px;
+  margin: auto;
+  border: solid;
+  width: 50%;
+  border-width: 2px;
+  border-color: green;
+}
+
+.infoCont {
+  font-size: 30px;
+  margin: auto;
+}
+
+.anchorColor {
+  color: hotpink;
+}
+
+.subCont {
+  font-size: 16px;
+  margin: auto;
+  width: 50%;
+  font-family: Arial, Helvetica, sans-serif;
+}

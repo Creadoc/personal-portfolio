@@ -26,6 +26,12 @@
 
 .linkr {
   padding: 4px;
+  color: hotpink;
+}
+
+p {
+  margin: auto;
+  width: 70%;
 }
 
 .about .prompt {

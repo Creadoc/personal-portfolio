@@ -63,6 +63,10 @@
   }
 }
 
+.anchorColor {
+  color: hotpink;
+}
+
 @media only screen and (max-width: 800px) {
   .projectList {
     width: 100%;

@@ -9,7 +9,12 @@ function Projects() {
         Here is a list of my projects, You'll find them on my Github account.
         Keep checking back for an update as I am usually working on something!
       </h2>
-      <a href="https://github.com/Creadoc" rel="noreferrer" target="_blank">
+      <a
+        href="https://github.com/Creadoc"
+        rel="noreferrer"
+        target="_blank"
+        className="anchorColor"
+      >
         My Github Profile
       </a>
     </div>

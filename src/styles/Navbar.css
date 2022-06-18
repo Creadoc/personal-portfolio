@@ -74,6 +74,10 @@
     display: none;
   }
 
+  .anchorColor {
+    color: hotpink;
+  }
+
   .hiddenLinks {
     display: none;
   }
