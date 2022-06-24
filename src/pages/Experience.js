@@ -4,7 +4,6 @@ import "../styles/Experience.css";
 function Experience() {
   return (
     <div>
-      <div className="top">Experience</div>
       <div className="middleBar">
         <div className="mainCont">
           Rheem Manufacturing

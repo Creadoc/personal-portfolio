@@ -7,6 +7,8 @@ import Navbar from "./components/Navbar";
 import ReactPlayer from "react-player";
 import ScrollToTop from "./components/ScrollToTop";
 
+import Mailer from "./components/MailAgent";
+
 function App() {
   return (
     <div className="App">
@@ -24,10 +26,10 @@ function App() {
             Experience
           </Route>
         </Routes>
+        <Mailer />
       </Router>
       <div className="vid">
         <ReactPlayer
-          className="player"
           url={"https://www.youtube.com/watch?v=tCs48OFv7xA"}
           playing={true}
           controls

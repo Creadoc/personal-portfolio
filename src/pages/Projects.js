@@ -4,9 +4,8 @@ import "../styles/Projects.css";
 function Projects() {
   return (
     <div className="middleLoc">
-      <div>Projects</div>
       <h2>
-        Here is a list of my projects, You'll find them on my Github account.
+        Here is a list of my projects, You'll find them on my GitHub account.
         Keep checking back for an update as I am usually working on something!
       </h2>
       <a
@@ -15,7 +14,7 @@ function Projects() {
         target="_blank"
         className="anchorColor"
       >
-        My Github Profile
+        My GitHub Profile
       </a>
     </div>
   );
