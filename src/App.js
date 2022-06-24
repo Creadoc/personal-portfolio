@@ -4,10 +4,13 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Experience from "./pages/Experience";
 import Navbar from "./components/Navbar";
+import ReactPlayer from "react-player";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <div className="App">
+      <ScrollToTop />
       <Router>
         <Navbar />
         <Routes>
@@ -22,6 +25,15 @@ function App() {
           </Route>
         </Routes>
       </Router>
+      <div className="vid">
+        <ReactPlayer
+          className="player"
+          url={"https://www.youtube.com/watch?v=tCs48OFv7xA"}
+          playing={true}
+          controls
+          volume={0.3}
+        />
+      </div>
     </div>
   );
 }

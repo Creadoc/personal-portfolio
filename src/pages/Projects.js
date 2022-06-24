@@ -3,7 +3,7 @@ import "../styles/Projects.css";
 
 function Projects() {
   return (
-    <div>
+    <div className="middleLoc">
       <div>Projects</div>
       <h2>
         Here is a list of my projects, You'll find them on my Github account.

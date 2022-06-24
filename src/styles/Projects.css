@@ -9,7 +9,7 @@
 .projects .projectTitle {
   text-align: center;
   color: #3e497a;
-  font-size: 60px;
+  font-size: 2vw;
   font-weight: bolder;
 }
 
@@ -19,6 +19,16 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   place-items: center;
+}
+
+h2 {
+  margin-top: 15vw;
+  font-size: 2vw;
+}
+
+.middleLoc {
+  margin: auto;
+  width: 60%;
 }
 
 /* MENU ITEM STYLING */
@@ -48,7 +58,7 @@
 }
 
 .projectItem h1 {
-  font-size: 25px;
+  font-size: 2vw;
 }
 
 @media only screen and (max-width: 1300px) {

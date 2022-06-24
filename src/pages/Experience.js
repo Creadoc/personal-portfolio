@@ -46,7 +46,7 @@ function Experience() {
           Fort Smith EMS
           <div className="infoCont">
             <div>
-              <div style={{ color: "yellow" }}>
+              <div className="yellow">
                 Title: Paramedic <br /> Emergent calls and Hospital-to-Hospital
                 transportation
               </div>
@@ -90,7 +90,7 @@ function Experience() {
           Choctaw Nation
           <div className="infoCont">
             <div>
-              <div style={{ color: "red" }}>
+              <div className="red">
                 Title: Armed Professional Security Officer <br /> On-foot and
                 Bike Patrol
               </div>
@@ -123,7 +123,7 @@ function Experience() {
           Franklin County EMS
           <div className="infoCont">
             <div>
-              <div style={{ color: "orange" }}>
+              <div className="orange">
                 Title: Paramedic <br /> Emergent calls and Hospital-to-Hospital
                 transportation
               </div>
@@ -165,7 +165,7 @@ function Experience() {
         <div className="mainCont">
           AR Army National Guard
           <div className="infoCont">
-            <div style={{ color: "green" }}>
+            <div className="green">
               Title: Combat Engineer <br /> 2006-2008 OIF Combat Veteran
             </div>
             <div>

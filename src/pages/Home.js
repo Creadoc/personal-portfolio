@@ -4,7 +4,7 @@ import "../styles/Home.css";
 function Home() {
   return (
     <div>
-      <div>
+      <div className="middleLoc">
         <h1>Welcome! I'm Jimmy.</h1>
         <h3>Here is some info about me: </h3>
         <p>
