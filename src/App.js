@@ -27,11 +27,11 @@ function App() {
           <Route path="/experience" element={<Experience />}>
             Experience
           </Route>
-          <Route path="/pageNotFound" element={<PageNotFound />}>
-            Page Not Found
-          </Route>
           <Route path="/linkBroken" element={<LinkBroken />}>
             Broken Link
+          </Route>
+          <Route path="*" element={<PageNotFound />}>
+            Page Not Found
           </Route>
         </Routes>
         <Mailer />
