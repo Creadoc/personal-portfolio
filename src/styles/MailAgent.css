@@ -34,8 +34,8 @@ body {
 }
 
 .form {
-  background-color: rgba(24, 201, 255, 0.13);
-  box-shadow: 0 4px 8px 0 rgb(255, 24, 243);
+  background-image: linear-gradient(rgb(71, 207, 193), rgb(13, 22, 37));
+  box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
   border-radius: 5px;
   max-width: 480px;
   margin-left: auto;
@@ -55,7 +55,12 @@ body {
 
 .title {
   display: block;
-  color: rgba(251, 255, 0, 0.61);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  background-image: linear-gradient(rgb(103, 255, 240), rgb(255, 113, 11));
   margin: 10px auto 5px;
   width: auto;
 }
