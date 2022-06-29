@@ -23,6 +23,27 @@ function Home() {
           children. I am passionate about learning, especially when it comes to
           computer science and programming.
         </p>
+        <div className="cardz">
+          <p className="internalCardText">
+            Languages, libraries, and frameworks I've mostly worked with:
+          </p>
+          <ul className="cardList">
+            <li>Java</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>ReactJS</li>
+            <li>ExpressJS</li>
+            <li>Node.JS</li>
+            <li>.NET</li>
+            <li>ASP.NET</li>
+            <li>MYSQL</li>
+            <li>C</li>
+            <li>C++</li>
+            <li>C#</li>
+            <li>A little Python</li>
+          </ul>
+        </div>
       </div>
     </div>
   );

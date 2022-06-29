@@ -47,6 +47,27 @@ p {
   width: 80%;
 }
 
+.internalCardText {
+  margin-top: 100px;
+}
+.cardz {
+  font-size: xx-large;
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgb(255, 24, 243);
+  transition: 0.3s;
+  background-color: rgba(24, 201, 255, 0.13);
+}
+.cardz:hover {
+  box-shadow: 0 8px 16px 0 rgb(24, 201, 255);
+  background-color: rgba(255, 24, 243, 0.13);
+}
+
+.cardList {
+  margin: auto;
+  font-size: x-large;
+  width: 17%;
+}
+
 .about .prompt {
   width: 40%;
   font-size: 2vw;

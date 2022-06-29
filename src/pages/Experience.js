@@ -27,8 +27,9 @@ function Experience() {
                     www.rheem.com
                   </a>
                 </div>
-                <div>Start: 11/19 End: N/A</div>
               </div>
+              Start: 11/19 <br />
+              End: N/A
             </div>
           </div>
           <div className="subCont">
@@ -63,7 +64,10 @@ function Experience() {
                     www.fortsmithems.org
                   </a>
                 </div>
-                <div>Start: 04/16 End: 01/2022, but still on call there</div>
+              </div>
+              <div>
+                Start: 04/16 <br />
+                End: 01/2022, but still on call there
               </div>
             </div>
           </div>
@@ -107,7 +111,10 @@ function Experience() {
                   www.choctawcasinos.com
                 </a>
               </div>
-              <div>Start: Sep 2010 & Nov 2015 End: Sep 2012 & Apr 2016</div>
+              <div>
+                Start: Sep 2010 & Nov 2015 <br />
+                End: Sep 2012 & Apr 2016
+              </div>
             </div>
           </div>
           <div className="subCont">
@@ -121,27 +128,29 @@ function Experience() {
         <div className="mainCont">
           Franklin County EMS
           <div className="infoCont">
-            <div>
-              <div className="orange">
-                Title: Paramedic <br /> Emergent calls and Hospital-to-Hospital
-                transportation
-              </div>
+            <div className="orange">
+              Title: Paramedic <br /> Emergent calls and Hospital-to-Hospital
+              transportation
+            </div>
+            <div className="aTest">
               Address: 111 W Spring St, <br />
               Ozark, Arkansas <br /> 72904
+              <div>Phone: (479) 667-4900</div>
+              <div>
+                Website:
+                <a
+                  href="https://www.facebook.com/FranklinCountyEMS/"
+                  rel="noreferrer"
+                  target="_blank"
+                  className="anchorColor"
+                >
+                  www.facebook.com/FranklinCountyEMS/
+                </a>
+              </div>
+              <div></div>
             </div>
-            <div>Phone: (479) 667-4900</div>
-            <div>
-              Website:
-              <a
-                href="https://www.facebook.com/FranklinCountyEMS/"
-                rel="noreferrer"
-                target="_blank"
-                className="anchorColor"
-              >
-                www.facebook.com/FranklinCountyEMS/
-              </a>
-            </div>
-            <div>Start: 04/11 End: 11/15</div>
+            Start: 04/11 <br />
+            End: 11/15
           </div>
           <div className="subCont">
             <ul>
@@ -168,21 +177,26 @@ function Experience() {
               Title: Combat Engineer <br /> 2006-2008 OIF Combat Veteran
             </div>
             <div>
-              Address: Arkansas <br /> NA
+              <div className="aTest">
+                Address: Arkansas <br /> NA
+                <div>Phone: NA</div>
+                <div>
+                  Website:
+                  <a
+                    href="http://arkansas.nationalguard.mil"
+                    rel="noreferrer"
+                    target="_blank"
+                    className="anchorColor"
+                  >
+                    arkansas.nationalguard.mil
+                  </a>
+                </div>
+              </div>
             </div>
-            <div>Phone: NA</div>
             <div>
-              Website:
-              <a
-                href="http://arkansas.nationalguard.mil"
-                rel="noreferrer"
-                target="_blank"
-                className="anchorColor"
-              >
-                arkansas.nationalguard.mil
-              </a>
+              Start: 12/04 <br />
+              End: 10/09
             </div>
-            <div>Start: 12/04 End: 10/09</div>
           </div>
           <div className="subCont">
             <ul>
