@@ -34,8 +34,11 @@ body {
 }
 
 .form {
-  background-image: linear-gradient(rgb(71, 207, 193), rgb(13, 22, 37));
-  box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+  /* background-image: linear-gradient(rgb(71, 207, 193), rgb(13, 22, 37)); */
+  background-color: rgba(24, 201, 255, 0.13);
+  box-shadow: 0 4px 8px 0 rgb(255, 24, 243);
+  transition: 0.3s;
+  width: 100%;
   border-radius: 5px;
   max-width: 480px;
   margin-left: auto;
@@ -49,6 +52,12 @@ body {
   /*   z-index: 1; */
   animation: bounce 1.5s infinite;
 }
+
+.form:hover {
+  background-color: rgba(255, 24, 243, 0.13);
+  box-shadow: 0 8px 16px 0 rgb(24, 201, 255);
+}
+
 ::-webkit-input-placeholder {
   font-size: 1.3em;
 }
