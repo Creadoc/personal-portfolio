@@ -9,7 +9,7 @@ function Footer() {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <a className="otherApps" href="/LinkBroken">
+        {/* <a className="otherApps" href="/LinkBroken">
           <InstagramIcon />
         </a>
         <a className="otherApps" href="/LinkBroken">
@@ -17,7 +17,7 @@ function Footer() {
         </a>
         <a className="otherApps" href="/LinkBroken">
           <FacebookIcon />
-        </a>
+        </a> */}
         <a
           className="otherApps"
           rel="noreferrer"

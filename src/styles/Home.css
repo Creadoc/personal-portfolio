@@ -68,6 +68,16 @@ p {
   width: 17%;
 }
 
+.selfie {
+  width: 20vw;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+.selfie:hover {
+  opacity: 1;
+}
+
 .about .prompt {
   width: 40%;
   font-size: 2vw;
