@@ -25,12 +25,12 @@ function Home() {
             UAFS
           </a>
           in May of 2022. I have been working as an IT Co-Op for Rheem
-          Manufacturing since November 2019. I am a father to 5 wonderful
-          children. I am passionate about learning, especially when it comes to
-          computer science and programming. Some of my hobbies are spending time
-          with my children, video games, fitness, programming of course, and
-          music, especially playing guitar. Questions? Feel free to use my
-          "Contact Me" on the right to send me an email.
+          Manufacturing since November 2019. I am passionate about learning,
+          especially when it comes to computer science and programming. Some of
+          my hobbies are spending time with my children, video games, fitness,
+          programming of course, and music, especially playing guitar.
+          Questions? Feel free to use my "Contact Me" on the right to send me an
+          email.
         </p>
         <div className="cardz">
           <p className="internalCardText">

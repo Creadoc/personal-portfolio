@@ -27,7 +27,7 @@ function Footer() {
           <LinkedInIcon />
         </a>
       </div>
-      <p> &copy; 2022 Creadoc.com</p>
+      <p> &copy; 2022 classiccreadoc.com</p>
     </div>
   );
 }
