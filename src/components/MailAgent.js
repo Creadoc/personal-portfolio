@@ -3,9 +3,9 @@ import "../styles/MailAgent.css";
 import Emailjs from "emailjs-com";
 
 function MailAgent() {
-  const [userName, setName] = useState("NAME");
-  const [email, setEmail] = useState("EMAIL");
-  const [message, setMessage] = useState("MESSAGE");
+  const [userName, setUserName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
 
   function sendEmail(e) {
     e.preventDefault();
@@ -18,27 +18,14 @@ function MailAgent() {
       .then((res) => {
         console.log(res);
       })
-      .catch((err) => console.log(err));
+      .catch((err) => {
+        console.log(err);
+      });
     wipeValues();
   }
 
-  useEffect(() => {
-    if (userName === "") {
-    } else setName(userName);
-  }, [userName]);
-
-  useEffect(() => {
-    if (email === "") {
-    } else setName(email);
-  }, [email]);
-
-  useEffect(() => {
-    if (message === "") {
-    } else setName("");
-  }, [message]);
-
   function wipeValues() {
-    setName("");
+    setUserName("");
     setEmail("");
     setMessage("");
   }
@@ -51,21 +38,27 @@ function MailAgent() {
           className="name"
           type="text"
           name="name"
-          placeholder={userName}
+          onChange={(event) => setUserName(event.target.value)}
+          value={userName}
+          placeholder="Name"
         />
         <br />
         <input
           className="email"
           type="email"
           name="user_email"
-          placeholder={email}
+          onChange={(event) => setEmail(event.target.value)}
+          value={email}
+          placeholder="Email"
         />
         <br />
         <textarea
           className="message"
           name="message"
           rows="4"
-          placeholder={message}
+          onChange={(event) => setMessage(event.target.value)}
+          value={message}
+          placeholder="Message"
         />
         <br />
         <input className="submit" type="submit" value="Send" />
