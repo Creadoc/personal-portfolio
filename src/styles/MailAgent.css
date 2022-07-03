@@ -145,11 +145,13 @@ body {
   color: white;
   background-color: #0e3721;
   font-size: 20px;
+  transition: 0.3s;
 }
 
 .submit:hover {
   box-shadow: 15px 15px 15px 5px rgba(78, 72, 77, 0.219);
   transform: translateY(-3px);
+  transition: 0.3s;
   width: 300px;
   border-top: 5px solid #0e3750;
   background-color: #2bff00;

@@ -1,11 +1,14 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "../styles/MailAgent.css";
 import Emailjs from "emailjs-com";
+import Popup from "./Popup";
 
 function MailAgent() {
   const [userName, setUserName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [buttonPopup, setButtonPopup] = useState(false);
+  const [tempName, setTempName] = useState("");
 
   function sendEmail(e) {
     e.preventDefault();
@@ -17,10 +20,14 @@ function MailAgent() {
     )
       .then((res) => {
         console.log(res);
+        if (res.status === 200) {
+          setButtonPopup(true);
+        }
       })
       .catch((err) => {
         console.log(err);
       });
+    setTempName(userName);
     wipeValues();
   }
 
@@ -63,6 +70,13 @@ function MailAgent() {
         <br />
         <input className="submit" type="submit" value="Send" />
       </form>
+      <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
+        <h1>Email Sent!</h1>
+        <h2>Thank You {tempName}!</h2>
+        <p>
+          I will be reading my emails as soon as I can and get back with you!
+        </p>
+      </Popup>
     </div>
   );
 }
