@@ -1,9 +1,18 @@
 import React from "react";
 import "../styles/Experience.css";
+import { Helmet } from "react-helmet";
 
 function Experience() {
   return (
     <div>
+      <Helmet>
+        <title>Portfolio Experience Page</title>
+        <meta
+          name="Jimmy Collins portfolio Experience webpage"
+          content="My work
+          experience so far."
+        ></meta>
+      </Helmet>
       <div className="middleBar">
         <div className="mainCont">
           Rheem Manufacturing

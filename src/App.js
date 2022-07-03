@@ -10,10 +10,15 @@ import Footer from "./components/Footer";
 import Mailer from "./components/MailAgent";
 import PageNotFound from "./pages/PageNotFound";
 import LinkBroken from "./pages/LinkBroken";
+import { Helmet } from "react-helmet";
 
 function App() {
   return (
     <div className="App">
+      <Helmet>
+        <title>My Portfolio.</title>
+        <meta name="Portfolio App Page" content="Main Portfolio Page."></meta>
+      </Helmet>
       <ScrollToTop />
       <Router>
         <Navbar />

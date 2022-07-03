@@ -1,10 +1,19 @@
 import React from "react";
 import "../styles/Home.css";
 import Me from "../styles/images/me.png";
+import { Helmet } from "react-helmet";
 
 function Home() {
   return (
     <div>
+      <Helmet>
+        <title>Jimmy Collins Portfolio Home Page</title>
+        <meta
+          name="Jimmy Collins portfolio Home page"
+          content="Just a little about
+          me."
+        ></meta>
+      </Helmet>
       <div className="middleLoc">
         <h1>Welcome! I'm Jimmy.</h1>
         <img className="selfie" src={Me} alt="self" />
