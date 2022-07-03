@@ -4,7 +4,7 @@ import "../styles/Projects.css";
 function Projects() {
   return (
     <div className="middleLoc">
-      <h2>
+      <h2 className="words">
         Here is a list of my projects, You'll find them on my GitHub account.
         Keep checking back for an update as I am usually working on something!
       </h2>

@@ -90,36 +90,40 @@ body {
 
 .name {
   background-color: #ebebeb;
+  transition: ease 0.5s;
 }
 .name:hover {
   border-bottom: 5px solid #0e3721;
   height: 30px;
-  width: 380px;
+  width: 100%;
   transition: ease 0.5s;
 }
 
 .email {
   background-color: #ebebeb;
   height: 2em;
+  transition: ease 0.5s;
 }
 
 .email:hover {
   border-bottom: 5px solid #0e3721;
   height: 30px;
-  width: 380px;
+  width: 100%;
   transition: ease 0.5s;
 }
 
 .message {
   background-color: #ebebeb;
   overflow: hidden;
+  width: 70%;
   height: 10rem;
+  transition: ease 0.5s;
 }
 
 .message:hover {
   border-bottom: 5px solid #0e3721;
   height: 12em;
-  width: 380px;
+  width: 100%;
   transition: ease 0.5s;
 }
 
@@ -138,21 +142,23 @@ body {
   position: fixed;
   right: 15px;
   bottom: 48%;
+  z-index: 99 !important;
 }
 
 .submit {
-  width: 200px;
+  width: 40%;
   color: white;
   background-color: #0e3721;
   font-size: 20px;
   transition: 0.3s;
+  border-radius: 18%;
 }
 
 .submit:hover {
   box-shadow: 15px 15px 15px 5px rgba(78, 72, 77, 0.219);
   transform: translateY(-3px);
   transition: 0.3s;
-  width: 300px;
+  width: 100%;
   border-top: 5px solid #0e3750;
   background-color: #2bff00;
   color: black;

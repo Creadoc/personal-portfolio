@@ -1,5 +1,6 @@
 .top-to-btm {
   position: relative;
+  z-index: 100 !important;
 }
 .icon-position {
   position: fixed;
