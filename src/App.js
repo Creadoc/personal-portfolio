@@ -46,6 +46,7 @@ function App() {
             playing={true}
             controls
             volume={0.3}
+            width={"100%"}
           />
         </div>
         <Footer />
