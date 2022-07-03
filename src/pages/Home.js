@@ -7,11 +7,7 @@ function Home() {
     <div>
       <div className="middleLoc">
         <h1>Welcome! I'm Jimmy.</h1>
-        <img
-          className="selfie"
-          src={require("../styles/images/me.png")}
-          alt="selfie"
-        />
+        <img className="selfie" src={Me} alt="self" />
         <h3>Here is some info about me: </h3>
         <p>
           I don't even know where to start, but here goes. I obtained my
