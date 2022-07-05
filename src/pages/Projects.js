@@ -13,6 +13,7 @@ function Projects() {
           work I have online so far."
         ></meta>
       </Helmet>
+
       <h2 className="words">
         Here is a list of my projects, You'll find them on my GitHub account.
         Keep checking back for an update as I am usually working on something!
