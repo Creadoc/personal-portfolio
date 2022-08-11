@@ -2,13 +2,9 @@ import React from "react";
 import "../styles/Home.css";
 import Me from "../styles/images/me.png";
 import { Helmet } from "react-helmet";
-//import { useQuery } from "@tanstack/react-query";
-//import Axios from "axios";
-
+//import { FormatAlignCenter } from "@material-ui/icons";
+import FactCaller from "../components/FactCaller";
 function Home() {
-  //const {} = useQuery(["cat"], () =>{
-
-  //});
   return (
     <div>
       <Helmet>
@@ -31,7 +27,7 @@ function Home() {
             <a
               className="linkr"
               href="https://uafs.edu/"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               target="_blank"
             >
               UAFS
@@ -66,6 +62,8 @@ function Home() {
             <li>A little Python</li>
           </ul>
         </div>
+        <br />
+        <FactCaller />
       </div>
     </div>
   );
