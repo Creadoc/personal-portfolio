@@ -29,6 +29,7 @@ h1 {
 }
 h3 {
   font-size: 2vw;
+  font-weight: bold;
 }
 
 .linkr {
@@ -37,7 +38,7 @@ h3 {
 }
 
 p {
-  font-size: 1.5vw;
+  font-size: 2vw;
   margin: auto;
   width: 70%;
 }
@@ -49,9 +50,10 @@ p {
 
 .internalCardText {
   margin-top: 100px;
+  font-size: 2vw;
 }
 .cardz {
-  font-size: xx-large;
+  font-size: 2vw;
   margin: auto;
   box-shadow: 0 4px 8px 0 rgb(255, 24, 243);
   transition: 0.3s;
@@ -64,7 +66,7 @@ p {
 
 .cardList {
   margin: auto;
-  font-size: 35%;
+  font-size: 2vw;
   width: 17%;
 }
 
@@ -131,4 +133,10 @@ p {
   .skills h2 {
     font-size: 2vw;
   }
+}
+
+.informCard {
+  background-color: rgb(39, 38, 38);
+  border-radius: 5%;
+  border-style: groove;
 }
