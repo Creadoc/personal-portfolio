@@ -1,4 +1,5 @@
 import "./App.css";
+import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
@@ -11,14 +12,17 @@ import Mailer from "./components/MailAgent";
 import PageNotFound from "./pages/PageNotFound";
 import LinkBroken from "./pages/LinkBroken";
 import { Helmet } from "react-helmet";
+//import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
 function App() {
+  //const client = new QueryClient();
   return (
     <div className="App">
       <Helmet>
         <title>My Portfolio.</title>
         <meta name="Portfolio App Page" content="Main Portfolio Page."></meta>
       </Helmet>
+      {/* <QueryClientProvider> */}
       <ScrollToTop />
       <Router>
         <Navbar />
@@ -41,16 +45,17 @@ function App() {
         </Routes>
         <Mailer />
         <div className="vid">
-          <ReactPlayer
-            url={"https://www.youtube.com/watch?v=tCs48OFv7xA"}
+          {/* <ReactPlayer
+            url={"https://www.youtube.com/watch?v=LvtFH9qzW4g"}
             playing={true}
             controls
             volume={0.3}
             width={"100%"}
-          />
+          /> */}
         </div>
         <Footer />
       </Router>
+      {/* </QueryClientProvider> */}
     </div>
   );
 }

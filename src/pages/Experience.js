@@ -29,7 +29,7 @@ function Experience() {
                   Website:{" "}
                   <a
                     href="http://www.rheem.com"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                     target="_blank"
                     className="anchorColor"
                   >
@@ -66,7 +66,7 @@ function Experience() {
                   Website:
                   <a
                     href="http://www.fortsmithems.org"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                     target="_blank"
                     className="anchorColor"
                   >
@@ -113,7 +113,7 @@ function Experience() {
                 Website:
                 <a
                   href="http://www.choctawcasinos.com"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   target="_blank"
                   className="anchorColor"
                 >
@@ -149,7 +149,7 @@ function Experience() {
                 Website:
                 <a
                   href="https://www.facebook.com/FranklinCountyEMS/"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   target="_blank"
                   className="anchorColor"
                 >
@@ -193,7 +193,7 @@ function Experience() {
                   Website:
                   <a
                     href="http://arkansas.nationalguard.mil"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                     target="_blank"
                     className="anchorColor"
                   >

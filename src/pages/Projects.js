@@ -19,7 +19,7 @@ function Projects() {
       </h2>
       <a
         href="https://github.com/Creadoc"
-        rel="noreferrer"
+        rel="noopener noreferrer"
         target="_blank"
         className="anchorColor"
       >

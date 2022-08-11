@@ -20,7 +20,7 @@ function Footer() {
         </a> */}
         <a
           className="otherApps"
-          rel="noreferrer"
+          rel="noopener noreferrer"
           target="_blank"
           href="https://www.linkedin.com/in/jimmy-collins-21113a135"
         >

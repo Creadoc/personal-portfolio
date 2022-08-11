@@ -2,8 +2,13 @@ import React from "react";
 import "../styles/Home.css";
 import Me from "../styles/images/me.png";
 import { Helmet } from "react-helmet";
+//import { useQuery } from "@tanstack/react-query";
+//import Axios from "axios";
 
 function Home() {
+  //const {} = useQuery(["cat"], () =>{
+
+  //});
   return (
     <div>
       <Helmet>
