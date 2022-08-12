@@ -1,6 +1,9 @@
 import React from "react";
-import "../styles/Projects.css";
+
 import { Helmet } from "react-helmet";
+import "../styles/Home.css";
+import "../styles/Projects.css";
+import FactCaller from "../components/FactCaller";
 
 function Projects() {
   return (
@@ -26,6 +29,9 @@ function Projects() {
       >
         My GitHub Profile
       </a>
+      <br />
+      <br />
+      <FactCaller />
     </div>
   );
 }

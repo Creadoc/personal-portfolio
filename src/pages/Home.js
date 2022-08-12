@@ -3,7 +3,7 @@ import "../styles/Home.css";
 import Me from "../styles/images/me.png";
 import { Helmet } from "react-helmet";
 //import { FormatAlignCenter } from "@material-ui/icons";
-import FactCaller from "../components/FactCaller";
+
 function Home() {
   return (
     <div>
@@ -62,8 +62,6 @@ function Home() {
             <li>A little Python</li>
           </ul>
         </div>
-        <br />
-        <FactCaller />
       </div>
     </div>
   );

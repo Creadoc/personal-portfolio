@@ -44,7 +44,7 @@ function FactCaller() {
 
   return (
     <div className="cardz">
-      Some Random Cat Facts: <br />
+      <h1 className="h1color">Some Random Cat Facts:</h1>
       <div className="internalCardText">{data.fact}</div>
     </div>
   );
