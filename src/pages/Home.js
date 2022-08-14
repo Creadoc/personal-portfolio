@@ -19,7 +19,6 @@ function Home() {
         <h1>Welcome! I'm Jimmy.</h1>
         <img className="selfie" src={Me} alt="self" />
         <div className="informCard">
-          INSIDE
           <h3>Here is some info about me: </h3>
           <p>
             I don't even know where to start, but here goes. I obtained my
