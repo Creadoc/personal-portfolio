@@ -2,28 +2,10 @@ import React from "react";
 import "../styles/Home.css";
 import { useQuery } from "@tanstack/react-query";
 import Axios from "axios";
+import { Box } from "@mui/material";
+import Feed from "../components/imagesPuller";
 
 function FactCaller() {
-  // const [image, setImage] = useState();
-
-  // const funky = async function refreshImage() {
-  //   setImage = null;
-  //   try {
-  //     const response = await fetch(
-  //       `https://api/thecatapi.com/v1/images/search`,
-  //       {
-  //         headers: {
-  //           "x-api-key": process.env.REACT_APP_CAT_API_KEY,
-  //         },
-  //       }
-  //     );
-  //     const json = await response.json();
-  //     setImage(json);
-  //   } catch (e) {
-  //     console.log(e);
-  //   }
-  // };
-
   const { data, isLoading } = useQuery(["cat"], async () => {
     return Axios.get("https://catfact.ninja/fact").then((res) => res.data);
   });
@@ -44,7 +26,15 @@ function FactCaller() {
 
   return (
     <div className="cardz">
-      <h1 className="h1color">Some Random Cat Facts:</h1>
+      <h2 className="h2color">
+        Some Random Cat Facts:
+        <p className="mini">(Using 2 different cat related API's here...)</p>
+      </h2>
+      <div className="pic">
+        <Box>
+          <Feed></Feed>
+        </Box>
+      </div>
       <div className="internalCardText">{data.fact}</div>
     </div>
   );

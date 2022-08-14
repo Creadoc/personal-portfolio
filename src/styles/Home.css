@@ -31,6 +31,12 @@ h1 {
 .h1color {
   color: #f0f0f0;
 }
+
+.h2color {
+  font-size: 3vw;
+  color: #f0f0f0;
+}
+
 h3 {
   font-size: 2vw;
   font-weight: bold;
@@ -52,8 +58,15 @@ p {
   width: 80%;
 }
 
+.pic {
+  margin-left: 40%;
+}
+
+.mini {
+  font-size: 1vw;
+}
 .internalCardText {
-  margin-top: 100px;
+  margin-top: 10px;
   font-size: 2vw;
   color: #f0f0f0;
 }
@@ -91,7 +104,7 @@ p {
 }
 .prompt svg {
   font-size: 2vw;
-  margin: 5px;
+  /* margin: 5px; */
   color: white;
 }
 
@@ -123,7 +136,7 @@ p {
   }
 
   .about .prompt {
-    margin-top: 10px;
+    /* margin-top: 10px; */
     font-size: 20px;
     width: 80%;
   }
