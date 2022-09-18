@@ -47,8 +47,9 @@ function App() {
           </Routes>
           <Mailer />
           <div className="vid">
+            <div>I do not own the rights to this music:</div>
             <ReactPlayer
-              url={"https://www.youtube.com/watch?v=LvtFH9qzW4g"}
+              url={"https://www.youtube.com/watch?v=GdzrrWA8e7A"}
               playing={true}
               controls
               volume={0.3}
