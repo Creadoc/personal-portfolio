@@ -15,6 +15,45 @@ function Experience() {
       </Helmet>
       <div className="middleBar">
         <div className="mainCont">
+          Weldon, Williams, & Lick
+          <div className="infoCont">
+            <div>
+              <div>
+                Title: Programmer Analyst <br />
+              </div>
+              <div className="aTest">
+                Address: 711 N A St, <br />
+                Fort Smith, Arkansas <br /> 72901
+                <div>Phone: (800)242-4995</div>
+                <div>
+                  Website:
+                  <a
+                    href="https://wwlinc.com/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    className="anchorColor"
+                  >
+                    www.wwlinc.com
+                  </a>
+                </div>
+              </div>
+              Start: 09/22 <br />
+              End: N/A
+            </div>
+            <div></div>
+          </div>
+          <div className="subCont">
+            <ul>
+              <li>
+                Develop, program, and test software solutions for the automation
+                of tasks for production as well as for clients asking for custom
+                software
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="mainCont">
           Rheem Manufacturing
           <div className="infoCont">
             <div>
