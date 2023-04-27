@@ -4,6 +4,7 @@ import { Helmet } from "react-helmet";
 import "../styles/Home.css";
 import "../styles/Projects.css";
 import FactCaller from "../components/FactCaller";
+import ChatBot from "../components/ChatBot";
 
 function Projects() {
   return (
@@ -32,6 +33,11 @@ function Projects() {
       <br />
       <br />
       <FactCaller />
+      {/*
+       <br />
+      <br />
+      <ChatBot />
+      */}
     </div>
   );
 }
