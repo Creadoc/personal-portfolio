@@ -24,6 +24,8 @@ const systemMessage = {
 
 const apiKey = process.env.REACT_APP_OPENAI_API_KEY;
 
+console.log(process.env.REACT_APP_OPENAI_API_KEY);
+
 function ChatBot() {
   const [messages, setMessages] = useState([
     {
