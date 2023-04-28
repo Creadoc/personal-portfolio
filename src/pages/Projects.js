@@ -4,7 +4,8 @@ import { Helmet } from "react-helmet";
 import "../styles/Home.css";
 import "../styles/Projects.css";
 import FactCaller from "../components/FactCaller";
-import ChatBot from "../components/ChatBot";
+//import ChatBot from "../components/ChatBot";
+import WeatherReporter from "../components/WeatherReporter";
 
 function Projects() {
   return (
@@ -33,6 +34,11 @@ function Projects() {
       <br />
       <br />
       <FactCaller />
+      {/* this works, however I am not going to pay to get it to work for now.
+      <br />
+      <br />
+      <WeatherReporter />
+  */}
 
       {/* this works, however I don't have the money to spend on it right now.
       <br />
