@@ -29,7 +29,7 @@ console.log(process.env.REACT_APP_OPENAI_API_KEY);
 function ChatBot() {
   const [messages, setMessages] = useState([
     {
-      message: "Hello, I'm ChatGPT! Ask me anything!",
+      message: "Hey, I'm ChatGPT! Ask me anything!",
       sentTime: "just now",
       sender: "ChatGPT",
     },
