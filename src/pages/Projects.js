@@ -34,9 +34,11 @@ function Projects() {
       <br />
       <FactCaller />
 
+      {/* this works, however I don't have the money to spend on it right now.
       <br />
       <br />
-      <ChatBot />
+  <ChatBot />
+  */}
     </div>
   );
 }

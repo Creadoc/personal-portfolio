@@ -9,6 +9,11 @@ import {
   MessageInput,
   TypingIndicator,
 } from "@chatscope/chat-ui-kit-react";
+import "../styles/Home.css";
+// import { useQuery } from "@tanstack/react-query";
+// import Axios from "axios";
+// import { Box } from "@mui/material";
+// import Feed from "./imagesPuller";
 
 // "Explain things like you would to a 10 year old learning how to code."
 const systemMessage = {
@@ -21,10 +26,6 @@ const systemMessage = {
 };
 
 // I removed the API_KEY for now because there was an issue with it anyways.
-
-const apiKey = process.env.REACT_APP_OPENAI_API_KEY;
-
-console.log(process.env.REACT_APP_OPENAI_API_KEY);
 
 function ChatBot() {
   const [messages, setMessages] = useState([
@@ -83,7 +84,7 @@ function ChatBot() {
     await fetch("https://api.openai.com/v1/chat/completions", {
       method: "POST",
       headers: {
-        Authorization: "Bearer " + apiKey,
+        Authorization: "Bearer " + process.env.REACT_APP_CHATGPT_API_KEY,
         "Content-Type": "application/json",
       },
       body: JSON.stringify(apiRequestBody),
