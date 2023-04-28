@@ -22,7 +22,7 @@ const systemMessage = {
 
 // I removed the API_KEY for now because there was an issue with it anyways.
 
-const keyHere = process.env.REACT_APP_OPENAI_API_KEY;
+const apiKey = process.env.REACT_APP_OPENAI_API_KEY;
 
 function ChatBot() {
   const [messages, setMessages] = useState([
@@ -81,7 +81,7 @@ function ChatBot() {
     await fetch("https://api.openai.com/v1/chat/completions", {
       method: "POST",
       headers: {
-        Authorization: "Bearer " + keyHere,
+        Authorization: "Bearer " + apiKey,
         "Content-Type": "application/json",
       },
       body: JSON.stringify(apiRequestBody),
@@ -91,14 +91,15 @@ function ChatBot() {
       })
       .then((data) => {
         console.log(data);
-        setMessages([
-          ...chatMessages,
-          {
-            message: data.choices[0].message.content,
-            sender: "ChatGPT",
-          },
-        ]);
-        setIsTyping(false);
+        if (data.choices != null) {
+          if (data.choices.length > 0) {
+            setMessages([
+              ...chatMessages,
+              { message: data.choices[0].text, sender: "ChatGPT" },
+            ]);
+          }
+          setIsTyping(false);
+        }
       });
   }
 

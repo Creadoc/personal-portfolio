@@ -33,11 +33,10 @@ function Projects() {
       <br />
       <br />
       <FactCaller />
-      {/*
-       <br />
+
+      <br />
       <br />
       <ChatBot />
-      */}
     </div>
   );
 }
